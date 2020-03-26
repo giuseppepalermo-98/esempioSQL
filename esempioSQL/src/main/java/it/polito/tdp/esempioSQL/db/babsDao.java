@@ -16,6 +16,7 @@ public class babsDao {
 		String sql = "SELECT station_id, NAME, dockCount, landmark FROM station ORDER BY name";
 		
 		
+		
         //String jdbcURL = "jdbc:mysql://localhost/babs?user=root&password=root" ;
 		
 		List<Station> result=new ArrayList<Station>();
